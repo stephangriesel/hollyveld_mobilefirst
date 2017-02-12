@@ -116,6 +116,9 @@ img {
 	width:50%;
 }
 
+.top {
+	padding-bottom:1em;
+}
 
 /* Navigation */
 
@@ -129,7 +132,9 @@ ul {
 }
 
 li a {
-	border:0.063em solid;
+	border-top:0.063em solid;
+	border-right:0.063em solid;
+	border-left:0.063em solid;
     color: #FFFFFF;
     display: block;
     padding: 8px 16px;
@@ -157,9 +162,40 @@ li a:hover {
 	padding:1em 0 0 0;
 }
 
+/* Half left */
+.half1 {
+	background-color:#A77676;
+	margin:0;
+	padding:0.3em;
+}
+
+.half2 {
+	background-color:#7F8A94;
+	margin:0;
+	padding:0.4em;
+}
+
+/* Hello about text */
+.bold-text {
+	font-weight:bold;
+}
+
 /* Footer */
 
+#authors {
+	float:left;
+	width:20%;
+}
+
 footer {
+	height:auto;
+}
+
+#copyright {
+	float:left;
+	font-size:0.1em;
+	padding-top:0.5em;
+	width:80%;	
 }
 
 
