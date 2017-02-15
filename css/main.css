@@ -104,6 +104,24 @@ body {
 	text-align:center;
 }
 
+/* Links */
+
+a:link {
+    color:#FFFFFF;
+}
+
+a:visited {
+    color:#FFFFFF;
+}
+
+a:hover {
+    color:#FFFFFF;
+}
+
+a:active {
+    color:#000000;
+}
+
 /* Header */
 header {
 	background-image: url("../img/skyline.jpg");
@@ -155,11 +173,39 @@ li a:hover {
 	margin:0em;*/
 }
 	
-/* Slideshow */
+/* Main content area */
 
 .slideshow {
 	clear:both;
 	padding:1em 0 0 0;
+}
+
+/* Peeps */
+
+.aboutpeep {
+	background-color:#927676;
+}
+
+p {
+	margin:0;
+}
+
+h1 {
+	margin:0;
+}
+
+.peepphoto {
+	background-color:#7F8A94;
+}
+
+/* Contact */
+
+.contact-text {
+	margin:0;
+}
+
+p {
+	margin:0;
 }
 
 /* Half left */
